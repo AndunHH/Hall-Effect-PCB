@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ProMicroKiCad")(type "Legacy")(uri "/home/johannes/Documents/GitHub/Hall-Effect-PCB/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr "https://github.com/Biacco42/ProMicroKiCad"))
+)
