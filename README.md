@@ -13,6 +13,11 @@ Here a 3d rendering:
 
 ![3d rendering](3d-Rendering-PCB.png)
 
+Here are the [STEP files](pcb.step) for the PCB itself.
+
+Here a picture of the soldered PCB:
+![Mounted PCB](PCB-mountedProMicro.png)
+
 ### Key Connector 1
 16, 14, 15, 10 + GND + VCC 
 
@@ -34,6 +39,16 @@ https://github.com/Biacco42/ProMicroKiCad
 Therefore it is included as a git submodul.
 
 Please run `git submodule update --init` after cloning this repo in order to populate the folder on your disk.
+
+# Create your own part
+
+I strongly advise, that you open the part in the newest version of KiCad for yourself and check the designs. I used the plugin by Aisler to publish the files directly to their manufacturing service. The provided gerber files are therefore __untested__! 
+
+[Gerber Files V1.zip](pcb/HallEffectPCB-v1-gerbers.zip)
+
+Use them at your own risk!
+
+Probably more resilient are those [ODB files](pcb/HallEffectPCB-v1-odb.zip).
 
 # License 
 Creative Commons License  
